@@ -3,5 +3,5 @@ CREATE TABLE IF NOT EXISTS accounts (
 ) default charset utf8mb4 COMMENT '';
 
 CREATE TABLE chore (
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(100) NOT NULL, lengthInMinutes INT NOT NULL, requiresChemical BOOLEAN DEFAULT false, requiresTool BOOLEAN DEFAULT false, completed BOOLEAN DEFAULT false
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(100) NOT NULL, lengthInMinutes INT NOT NULL, requiresChemical BOOLEAN DEFAULT false, completed BOOLEAN DEFAULT false
 )
